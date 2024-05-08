@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: 	#E9DCC9;
+    padding-left: 3em;
+    padding-right: 3em;
+   
+}
+.logo{
+    display: flex;
+    justify-content: start;
+}
+.logo a{
+
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Dancing Script", cursive;
+    
+}
+nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  
+}
+nav h1{
+    font-family: "Poetsen One", sans-serif;
+    font-size: 40px;
+    letter-spacing: .4em;
+}
+nav h3{
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+}
+.gallery img{
+    max-width: 300px;
+    height: auto;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
